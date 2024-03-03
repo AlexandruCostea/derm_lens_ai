@@ -1,0 +1,8 @@
+jupyterlab
+pandas
+matplotlib
+jupyter-lsp
+jupyterlab-lsp
+python-lsp-server[all]
+Pillow
+scipy

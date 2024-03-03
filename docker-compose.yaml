@@ -1,0 +1,15 @@
+version: '1.0'
+services:
+  jupyter-lab:
+    build: .
+    ports:
+      - 8888:8888
+    volumes:
+      - ./derm_lens_ai:/derm_lens_ai
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
