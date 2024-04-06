@@ -28,8 +28,5 @@ git clone https://github.com/AlexandruCostea/derm_lens_ai.git
 ## Credits
 Dataset: Melanoma Cancer Dataset by Bhavesh Mittal on Kaggle.
 
-## License
-This project is licensed under the MIT License. Feel free to use and modify the code for your own purposes.
-
 ## Disclaimer
  This model is intended to assist medical professionals in diagnosis and should not be solely relied upon for making medical decisions. Always consult with qualified healthcare providers for accurate diagnosis and treatment.
